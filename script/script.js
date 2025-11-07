@@ -1,4 +1,4 @@
-let estilosSalvos = {}
+/* let estilosSalvos = {}
 
 function formatarCss(string) {
   return string.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, '$1-$2').toLowerCase();
@@ -36,4 +36,24 @@ function pegarEstilos(e){
 
   console.log("estilos filtrados: " , cssFormat)
   // console.log("meu estilo: " , todosestilos)
-}
+} */
+
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('página carregou!');
+  
+  const componentes = document.getElementsByClassName('componente');
+  console.log('selecionei todos os componentes: ', componentes);
+  
+  const listaComponentes = Array.from(componentes);
+  console.log('converti todos os componentes', listaComponentes);
+  
+  listaComponentes.forEach((componente) => {
+    console.log('adicionando o evento click no componente', componente);
+    
+    componente.addEventListener('click', (event) => {
+      console.log('adicionei o evento no componente: ', event.target);
+    });
+  });
+  console.log('adicionei todos os eventos!');
+
+});
