@@ -1,0 +1,55 @@
+:root {
+    --input-radio: 0.75rem;
+    --input-altura: 16.62rem;
+    --input-largura: 2.06rem;
+    --input-espacamento: 1rem;
+    --input-background-cor: #F9F9F9;
+    --input-borda: 1px solid #d9d9d9;
+
+    --label-altura: 2.75rem;
+    --label-largura: 1rem;
+    --label-tamanho-fonte: 0.68rem;
+    --label-line-height: 0.81rem;
+    --label-margin: 0.62rem;
+}
+
+.input-medio {
+    width: var(--input-altura);
+    height: var(--input-largura);
+    padding: var(--input-espacamento);
+    background: var(--input-background-cor);
+    border: var(--input-borda);
+    border-radius: var(--input-radio);
+}
+
+.label-padrao {
+    width: var(--label-altura);
+    height: var(--label-altura);
+    font-size: var(--label-tamanho-fonte);
+    line-height: var(--label-line-height);
+    margin: var(--label-margin)
+}
+
+.input-container {
+  width: var(--input-altura);
+  position: relative;
+}
+
+.text-input-absolute {
+  width: 100%; 
+  padding: 0.62rem 2.5rem 0.62rem 0.62rem; 
+  border: var(--input-borda);
+  border-radius: var(--input-radio);
+  box-sizing: border-box;
+  background: var(--input-background-cor);
+}
+
+.input-icon-absolute {
+  position: absolute; 
+  top: 50%;
+  right: 0.62rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
