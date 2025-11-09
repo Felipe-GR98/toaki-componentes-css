@@ -62,3 +62,130 @@ button {
   padding: 1.5rem;
   width: 50%;
 }
+
+.botao-login{
+  margin: 5px;
+  background-color: #0FB5B5;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 266px;
+  height: 37px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-recusar-pedido{
+  margin: 5px;
+  background-color: #D93025;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #D93025;
+  box-shadow: none;
+  width: 109px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-aceitar-pedido{
+  margin: 5px;
+  background-color: #0FB5B5;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 109px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-cancelar-pedido-ativos{
+  margin: 5px;
+  background-color: #D93025;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #D93025;
+  box-shadow: none;
+  width: 109px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-localizar-pedido-ativos{
+  margin: 5px;
+  background-color: #0FB5B5;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 109px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-editar-meus-produtos{
+  margin: 5px;
+  background-color: #0FB5B5;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 109px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-excluir-meus-produtos{
+  margin: 5px;
+  background-color: #D93025;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 109px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-adicionar-meus-produtos{
+  margin: 5px;
+  background-color: #0FB5B5;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 200px;
+  height: 37px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botao-adicionar-meus-produtos-desktop{
+  margin: 5px;
+  background-color: #0FB5B5;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #0FB5B5;
+  box-shadow: none;
+  width: 204px;
+  height: 44px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+

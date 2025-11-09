@@ -44,16 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const componentes = document.getElementsByClassName('componente');
   console.log('selecionei todos os componentes: ', componentes);
   
-  const listaComponentes = Array.from(componentes);
-  console.log('converti todos os componentes', listaComponentes);
-  
-  listaComponentes.forEach((componente) => {
+  Array.from(componentes).forEach((componente) => {
     console.log('adicionando o evento click no componente', componente);
     
-    componente.addEventListener('click', (event) => {
-      console.log('adicionei o evento no componente: ', event.target);
+    componente.addEventListener('click', () => {
+      console.log('adicionei o evento no componente: ', componente);
     });
   });
+  
   console.log('adicionei todos os eventos!');
 
 });
