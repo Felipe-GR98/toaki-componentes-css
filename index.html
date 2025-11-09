@@ -142,20 +142,63 @@
       <div>
         <h3></h3>
       </div>
+
       <div class="componente">
-        <svg class="icone-tamanho-m icone-estrela" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+        <svg class="icone-tamanho-m icone-estrela icone-borda-preta" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
-      <select name="icone-tamanho" id="icone-tamanho">
-        <option value=""></option>
-        <option value="icone-tamanho-p">Pequeno</option>
-        <option value="icone-tamanho-m">Normal</option>
-        <option value="icone-tamanho-g">Grande</option>
-      </select>
-      <select name="tipo-icone" id="tipo-icone">
-        <option value=""></option>
-      </select>
+
+      <div class="icone-opcao">
+        <div>
+          <label for="icone-tamanho">Tamanho:</label>
+        </div>
+        <div>
+          <select name="icone-tamanho" id="icone-tamanho">
+            <option value=""></option>
+            <option value="icone-tamanho-p">Pequeno</option>
+            <option value="icone-tamanho-m">Normal</option>
+            <option value="icone-tamanho-g">Grande</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="icone-opcao">
+        <div>
+          <label for="icone-tipo">Tipo:</label>
+        </div>
+        <div>
+          <select name="icone-tipo" id="icone-tipo">
+            <option value=""></option>
+          </select>
+        </div>
+      </div>
+
+      <div class="icone-opcao">
+        <div>
+          <label for="icone-cor">Cor da Borda:</label>
+        </div>
+        <div>
+          <select name="icone-cor-borda" id="icone-cor-borda">
+            <option value=""></option>
+            <option value="icone-borda-preta">Preta</option>
+            <option value="icone-borda-ciano">Ciano</option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <div class="icone-observacao">
+          <p>
+            1. Para preencher a borda do ícone com alguma cor, existem duas classes chamadas "icone-preenchimento-preto" e "icone-preenchimento-ciano".
+            Use-as na tag "path" do ícone que você deseja preencher com a respectiva cor.
+          </p>
+          <p>
+            2. Para adicionar o fundo circular com sombra, existe uma classe chamada "icone-com-fundo", adicione esta classe na tag svg caso deseje esse comportamento.
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
     
