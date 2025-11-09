@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
   listaComponentes.forEach((componente) => {
     console.log('adicionando o evento click no componente', componente);
     
-    componente.addEventListener('click', (event) => {
-      console.log('adicionei o evento no componente: ', event.target);
+    componente.addEventListener('click', () => {
+      console.log('adicionei o evento no componente: ', componente);
     });
   });
   console.log('adicionei todos os eventos!');
