@@ -1,0 +1,16 @@
+.navbar-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--espacamento-xg);
+  width: 288px;
+  padding-top: var(--espacamento-regular);
+  padding-bottom: var(--espacamento-regular);
+  background-color: var(--cor-fundo-secundaria);
+  box-shadow: var(--sombra-media);
+  border-radius: var(--raio-grande);
+}
+
+.nav-bar-3-icones {
+  gap: var(--espacamento-ggg);
+}
