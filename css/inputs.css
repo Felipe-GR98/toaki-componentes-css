@@ -1,0 +1,59 @@
+:root {
+    --entrada-radio: 0.75rem;
+    --entrada-altura: 16.62rem;
+    --entrada-largura: 2.06rem;
+    --entrada-espacamento: 1rem;
+    --entrada-background-cor: #F9F9F9;
+    --entrada-borda: 1px solid #d9d9d9;
+
+    --rotulo-altura: 2.75rem;
+    --rotulo-largura: 1rem;
+    --rotulo-tamanho-fonte: 0.68rem;
+    --rotulo-espaco-linha: 0.81rem;
+    --rotulo-margem: 0.62rem;
+}
+
+.rotulo-entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entrada-medio {
+    width: var(--entrada-altura);
+    height: var(--entrada-largura);
+    padding: var(--entrada-espacamento);
+    background: var(--entrada-background-cor);
+    border: var(--entrada-borda);
+    border-radius: var(--entrada-radio);
+}
+
+.rotulo-padrao {
+    font-size: var(--rotulo-tamanho-fonte);
+    line-height: var(--rotulo-line-height);
+    padding-left: var(--rotulo-margem);
+}
+
+.entrada-container {
+  width: var(--entrada-altura);
+  position: relative;
+}
+
+.texto-entrada-absoluto {
+  width: 100%; 
+  padding: 0.62rem 2.5rem 0.62rem 0.62rem; 
+  border: var(--entrada-borda);
+  border-radius: var(--entrada-radio);
+  box-sizing: border-box;
+  background: var(--entrada-background-cor);
+}
+
+.entrada-icone-absoluto {
+  position: absolute; 
+  top: 50%;
+  right: 0.62rem;
+  transform: translateY(-50%);
+  cursor: pointer; 
+}
+
+
