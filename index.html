@@ -8,7 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/inputs.css">
+  <link rel="stylesheet" href="./css/icones.css">
+  <link rel="stylesheet" href="./css/inputs.css">
 </head>
 <body>
   <div id="container-titulo">
@@ -114,6 +115,34 @@
               
         </div>
       </div>
+  </div>
+
+  <div class="secao-de-componentes">
+    <div class="titulo-secao">
+      <h2>Ícones</h2>
+    </div>
+
+    <div class="moldura ocupa-linha" id="customizacao-icone">
+      <div>
+        <h3></h3>
+      </div>
+      <div class="componente">
+        <svg class="icone-tamanho-m icone-estrela" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+        <select name="icone-tamanho" id="icone-tamanho">
+          <option value=""></option>
+          <option value="icone-tamanho-p">Pequeno</option>
+          <option value="icone-tamanho-m">Normal</option>
+          <option value="icone-tamanho-g">Grande</option>
+        </select>
+        <select name="tipo-icone" id="tipo-icone">
+          <option value=""></option>
+        </select>
+    </div>
+
+  </div>
 
       <div class="moldura">
         <div>
@@ -144,7 +173,6 @@
         </div>
       </div>
     </div>
-
     
 </body>
 <script src="./script/script.js"></script>
