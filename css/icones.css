@@ -1,3 +1,22 @@
+.icone-opcao {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icone-opcao div {
+  width: 50%;
+}
+
+.icone-opcao div select {
+  width: 100%;
+}
+
+.icone-observacao p {
+  text-align: justify;
+  width: 400px;
+}
+
 .icone-tamanho-p {
   width: 16px;
   height: 16px;
@@ -16,6 +35,15 @@
 .icone-com-fundo {
   border-radius: 100%;
   background-color: #f9f9f9;
+  box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.06), 0px 4px 12px -2px rgba(0, 0, 0, 0.1);
+}
+
+.icone-borda-preta path {
+  stroke: black;
+}
+
+.icone-borda-ciano path {
+  stroke: var(--cor-marca-secundaria);
 }
 
 .icone-retorno path {

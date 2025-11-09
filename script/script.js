@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   Array.from(componentes).forEach((componente) => {
     componente.addEventListener('click', () => {
-      console.log('adicionei o evento no componente: ', componente);
+      console.log(componente);
     });
   });
 
@@ -80,7 +80,8 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const selectTamanhoIcone = document.getElementById('icone-tamanho');
-  const selectTipoIcone = document.getElementById('tipo-icone');
+  const selectTipoIcone = document.getElementById('icone-tipo');
+  const selectCorBordaIcone = document.getElementById('icone-cor-borda');
 
   listaIcones.forEach((icone) => {
     const option = document.createElement('option');
@@ -97,6 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   selectTipoIcone.addEventListener('change', () => {
     icone.classList.replace(icone.classList[1], selectTipoIcone.value)
+  });
+
+  selectCorBordaIcone.addEventListener('change', () => {
+    icone.classList.replace(icone.classList[2], selectCorBordaIcone.value)
   });
 
 });
