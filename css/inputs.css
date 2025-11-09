@@ -1,50 +1,54 @@
 :root {
-    --input-radio: 0.75rem;
-    --input-altura: 16.62rem;
-    --input-largura: 2.06rem;
-    --input-espacamento: 1rem;
-    --input-background-cor: #F9F9F9;
-    --input-borda: 1px solid #d9d9d9;
+    --entrada-radio: 0.75rem;
+    --entrada-altura: 16.62rem;
+    --entrada-largura: 2.06rem;
+    --entrada-espacamento: 1rem;
+    --entrada-background-cor: #F9F9F9;
+    --entrada-borda: 1px solid #d9d9d9;
 
-    --label-altura: 2.75rem;
-    --label-largura: 1rem;
-    --label-tamanho-fonte: 0.68rem;
-    --label-line-height: 0.81rem;
-    --label-margin: 0.62rem;
+    --rotulo-altura: 2.75rem;
+    --rotulo-largura: 1rem;
+    --rotulo-tamanho-fonte: 0.68rem;
+    --rotulo-espaco-linha: 0.81rem;
+    --rotulo-margem: 0.62rem;
 }
 
-.input-medio {
-    width: var(--input-altura);
-    height: var(--input-largura);
-    padding: var(--input-espacamento);
-    background: var(--input-background-cor);
-    border: var(--input-borda);
-    border-radius: var(--input-radio);
+.rotulo-entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.label-padrao {
-    width: var(--label-altura);
-    height: var(--label-altura);
-    font-size: var(--label-tamanho-fonte);
-    line-height: var(--label-line-height);
-    margin: var(--label-margin)
+.entrada-medio {
+    width: var(--entrada-altura);
+    height: var(--entrada-largura);
+    padding: var(--entrada-espacamento);
+    background: var(--entrada-background-cor);
+    border: var(--entrada-borda);
+    border-radius: var(--entrada-radio);
 }
 
-.input-container {
-  width: var(--input-altura);
+.rotulo-padrao {
+    font-size: var(--rotulo-tamanho-fonte);
+    line-height: var(--rotulo-line-height);
+    padding-left: var(--rotulo-margem);
+}
+
+.entrada-container {
+  width: var(--entrada-altura);
   position: relative;
 }
 
-.text-input-absolute {
+.texto-entrada-absoluto {
   width: 100%; 
   padding: 0.62rem 2.5rem 0.62rem 0.62rem; 
-  border: var(--input-borda);
-  border-radius: var(--input-radio);
+  border: var(--entrada-borda);
+  border-radius: var(--entrada-radio);
   box-sizing: border-box;
-  background: var(--input-background-cor);
+  background: var(--entrada-background-cor);
 }
 
-.input-icon-absolute {
+.entrada-icone-absoluto {
   position: absolute; 
   top: 50%;
   right: 0.62rem;
