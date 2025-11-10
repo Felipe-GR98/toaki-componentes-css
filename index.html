@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Componentes HTML & CSS</title>
   <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/botoes.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/imagem.css">
+  <link rel="stylesheet" href="./css/icones.css">
+  <link rel="stylesheet" href="./css/inputs.css">
 </head>
 <body>
+
   <div id="container-titulo">
     <div>
       <h1>Componentes HTML & CSS</h1>
-      
     </div>
     <div>
       <p>
@@ -25,7 +28,7 @@
     </div>
   </div>
   
-  <div class="secao-de-componentes">
+  <div class="secao-de-componentes" id="estrutura-exemplo">
     <div class="titulo-secao">
       <h2>Grupo dos Componentes</h2>
     </div>
@@ -46,67 +49,123 @@
           <h3>Nome do componente</h3>
         </div>
         <div class="componente">
-          <span>Remova esse span e preencha com os elementos do componente</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3+20L4.3+16.1C1.976+12.663+2.874+8.228+6.4+5.726C9.926+3.225+14.99+3.43+18.245+6.206C21.5+8.983+21.94+13.472+19.274+16.707C16.608+19.942+11.659+20.922+7.7+19L3+20Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> </svg>
         </div>
       </div>
       <div class="moldura">
         <div>
-          <h3>Nome do componente</h3>
+          <h3>Botões LOGIN - Mobile</h3>
         </div>
         <div class="componente">
-          <span>Remova esse span e preencha com os elementos do componente</span>
+          <button class="botao-grande" >Entrar</button>
+          
         </div>
       </div>
       <div class="moldura">
         <div>
-          <h3>Nome do componente</h3>
+          <h3>BT CIANO - Pequeno</h3>
         </div>
         <div class="componente">
-          <span>Remova esse span e preencha com os elementos do componente</span>
+          <button class="botao-ciano-pequeno">Aceitar</button>
+          
         </div>
       </div>
       <div class="moldura">
         <div>
-          <h3>Nome do componente</h3>
+          <h3>BT VERMELHO - Pequeno</h3>
         </div>
         <div class="componente">
-          <span>Remova esse span e preencha com os elementos do componente</span>
+          
+          <button class="botao-vermelho-pequeno">Cancelar</button>
         </div>
       </div>
+      
       <div class="moldura">
         <div>
-          <h3>Nome do componente</h3>
+          <h3>BT CIANO - Medio</h3>
         </div>
         <div class="componente">
-          <span>Remova esse span e preencha com os elementos do componente</span>
+          <button class="botao-ciano-medio">Adicionar Produto</button>
+  </div>
+
+ <div class="secao-de-componentes" id="inputs">
+    <div class="titulo-secao">
+      <h2>Grupo dos Inputs</h2>
+    </div>
+  
+  <div class="moldura">
+    <div>
+      <h3>Input Nome</h3>
+    </div>
+    <div class="componente">
+      <div class="rotulo-entrada">
+        <label class="rotulo-padrao" for="nomeUsuario">Nome</label>
+        <input class="entrada-medio" type="text" placeholder="Ex: Joao da Silva">
+      </div>
+    </div>
+   </div>
+  <div class="moldura">
+      <div>
+        <h3>Input E-mail</h3>
+      </div>
+      <div class="componente">
+        <div class="rotulo-entrada">
+          <label class="rotulo-padrao" for="nomeUsuario">E-mail</label>
+          <input class="entrada-medio" type="email" placeholder="Ex: joaosilva@exemplo.com.br">
+        </div>
+      </div>
+   </div>
+
+    <div class="moldura">
+      <div>
+        <h3>Input Senha</h3>
+      </div>
+      <div class="componente">
+        <div class="rotulo-entrada">
+          <label class="rotulo-padrao" for="nomeUsuario">Senha</label>
+          <input class="entrada-medio" type="password" placeholder="Ex: MinhaSenhaForte123!">
         </div>
       </div>
     </div>
+
+    <div class="moldura">
+      <div>
+        <h3>Input Buscar</h3>
+      </div>
+      <div class="componente">
+        <div class="entrada-container">
+          <input type="text" placeholder="Buscar" class="texto-entrada-absoluto">
+          <svg class="icone-tamanho-m icone-lupa icone-borda-preta entrada-icone-absoluto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <div class="secao-de-componentes">
-    <div class="titulo-secao">
-      <h2>Grupo das Imagens</h2>
-    </div>
-    
-    <template>
-      <div class="moldura">
-        <div>
-          <h3>Nome do Componente</h3>
-        </div>
-        <div class="componente">
-          <span>Remova esse span e preencha com os elementos do componente</span>
-        </div>
+      <div class="titulo-secao">
+        <h2>Grupo das Imagens</h2>
       </div>
-    </template>
 
-      <div class="moldura">
+      <template>
+        <div class="moldura">
+          <div>
+            <h3>Nome do Componente</h3>
+          </div>
+          <div class="componente">
+            <span>Remova esse span e preencha com os elementos do componente</span>
+          </div>
+        </div>
+      </template>
+      
+      <div class="moldura">  
         <div>
-          <h3>Imagem Web</h3>
+         <h3>Imagem Web</h3>
         </div>
         <div class="componente">
           <div class="resolucao-web">
             <div class="imagem-web">
-
             </div>
           </div>
         </div>
@@ -116,17 +175,123 @@
           <h3>Imagem Mobile</h3>
         </div>
         <div class="componente">
-          <div class="componente">
           <div class="resolucao-mobile">
             <div class="imagem-mobile">
 
             </div>
           </div>
         </div>
+      </div>
+
+  <div class="secao-de-componentes" id="icones">
+    <div class="titulo-secao">
+      <h2>Ícones</h2>
+    </div>
+
+    <div class="moldura ocupa-linha" id="customizacao-icone">
+      <div>
+        <h3></h3>
+      </div>
+
+      <div class="componente">
+        <svg class="icone-tamanho-m icone-estrela icone-borda-preta" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <div class="icone-opcao">
+        <div>
+          <label for="icone-tamanho">Tamanho:</label>
+        </div>
+        <div>
+          <select name="icone-tamanho" id="icone-tamanho">
+            <option value=""></option>
+            <option value="icone-tamanho-p">Pequeno</option>
+            <option value="icone-tamanho-m">Normal</option>
+            <option value="icone-tamanho-g">Grande</option>
+          </select>
+        </div>
+      </div>
+    </template>
+
+      <div class="icone-opcao">
+        <div>
+          <label for="icone-tipo">Tipo:</label>
+        </div>
+        <div>
+          <select name="icone-tipo" id="icone-tipo">
+            <option value=""></option>
+          </select>
+        </div>
+      </div>
+
+      <div class="icone-opcao">
+        <div>
+          <label for="icone-cor">Cor da Borda:</label>
+        </div>
+        <div>
+          <select name="icone-cor-borda" id="icone-cor-borda">
+            <option value=""></option>
+            <option value="icone-borda-preta">Preta</option>
+            <option value="icone-borda-ciano">Ciano</option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <div class="icone-observacao">
+          <p>
+            1. Para preencher a borda do ícone com alguma cor, existem duas classes chamadas "icone-preenchimento-preto", "icone-preenchimento-ciano", "icone-preenchimento-amarelo".
+            Use-as na tag "path" do ícone que você deseja preencher com a respectiva cor.
+          </p>
+          <p>
+            2. Para adicionar o fundo circular com sombra, existe uma classe chamada "icone-com-fundo", adicione esta classe na tag svg caso deseje esse comportamento.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="secao-de-componentes" id="switch-barra-progresso">
+    <div class="titulo-secao">
+      <h2>Switch e Barra de Progresso</h2>
+    </div>
+
+    <div class="moldura">
+      <div>
+        <h3>Switch</h3>
+      </div>
+      <div class="componente">
+        <!-- <div class="switch-externo switch-externo-ativo"><div></div></div> -->
+        <div class="switch-externo switch-externo-inativo">
+          <div class="switch-bola"></div>
         </div>
       </div>
     </div>
+    <div class="moldura">
+      <div>
+        <h3>Barra de Progresso</h3>
+      </div>
+      <div class="componente">
+        <div class="barra-progresso"><div></div></div>
+      </div>
+    </div>
+  </div>
 
+  <div class="oculto" id="popup">
+    <div id="popup-conteudo">
+      <div id="popup-button-container">
+        <a id="popup-fechar">Fechar</a>
+      </div>
+      <h3>Código HTML:</h3>
+      <p id="codigo-html"></p>
+      <div id="popup-copiar-container">
+        <a id="popup-copiar">Copiar Código</a>
+      </div>
+    </div>
+  </div>
+    
 </body>
 <script src="./script/script.js"></script>
 </html>
