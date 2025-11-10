@@ -40,6 +40,17 @@ function pegarEstilos(e){
 
 document.addEventListener('DOMContentLoaded', () => {
   const componentes = document.getElementsByClassName('componente');
+  console.log('selecionei todos os componentes: ', componentes);
+  
+  Array.from(componentes).forEach((componente) => {
+    console.log('adicionando o evento click no componente', componente);
+    
+    componente.addEventListener('click', () => {
+      console.log('adicionei o evento no componente: ', componente);
+    });
+  });
+  
+  console.log('adicionei todos os eventos!');
   const popup = document.getElementById('popup');
   const fecharPopup = document.getElementById('popup-fechar');
   const copiarPopup = document.getElementById('popup-copiar');
