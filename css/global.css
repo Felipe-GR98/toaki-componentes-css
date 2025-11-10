@@ -70,6 +70,10 @@ button {
   gap: 1rem;
 }
 
+.componente:hover {
+  cursor: pointer;
+}
+
 .titulo-secao {
   grid-column: span 5;
   text-align: center;
