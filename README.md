@@ -20,6 +20,10 @@ Para um bom funcionamento do repositório, normalmente é necessário:
 
 ## Customizando a partir dos Componentes
 
+### Texto e Conteúdo dentro das Tags
+
+Sinta-se livre para alterar o texto que vai dentro das tags, como os textos dos botões, inputs, cards e etc. E assim modificar o contexto do elemento para se adequar a tela e propósito do mesmo. Por exemplo, você pode selecionar um botão de sua escolha e modificar seu texto de "Excluir" para "Rejeitar".
+
 ### Botões e Inputs
 
 Para customizar botões e inputs, já existem algumas classes que modificam o tamanho e outras que fazem a troca da cor de fundo.
