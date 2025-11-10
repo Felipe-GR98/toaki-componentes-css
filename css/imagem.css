@@ -1,0 +1,27 @@
+.resolucao-web {
+    width: 90rem;
+    height: 64rem;
+}
+
+.imagem-web {
+    width: 100%;
+    height: 100%;
+    background-image: url("/image/mapa-web.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.resolucao-mobile {
+    width: 20rem;
+    height: 35.5rem;
+}
+
+.imagem-mobile {
+    width: 100%;
+    height: 100%;
+    background-image: url("/image/mapa-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
