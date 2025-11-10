@@ -123,4 +123,12 @@ document.addEventListener('DOMContentLoaded', () => {
     icone.classList.replace(icone.classList[2], selectCorBordaIcone.value)
   });
 
+  const switchsExternos = document.getElementsByClassName('switch-externo');
+
+  Array.from(switchsExternos).forEach((swt) => {
+    swt.addEventListener('mouseleave', () => {
+      swt.classList.toggle('switch-externo-ativo');
+      swt.classList.toggle('switch-externo-inativo');
+  });
+  });
 });
