@@ -28,6 +28,11 @@
 }
 
 .icone-tamanho-g {
+  width: 32px;
+  height: 32px;
+}
+
+.icone-tamanho-gg {
   width: 48px;
   height: 48px;
 }
@@ -44,6 +49,18 @@
 
 .icone-borda-ciano path {
   stroke: var(--cor-marca-secundaria);
+}
+
+.icone-preenchimento-preto path {
+  fill: black;
+}
+
+.icone-preenchimento-preto path {
+  fill: var(--cor-marca-secundaria);
+}
+
+.icone-preenchimento-amarelo path {
+  fill: var(--cor-terciaria-3);
 }
 
 .icone-retorno path {

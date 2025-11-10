@@ -40,11 +40,30 @@ function pegarEstilos(e){
 
 document.addEventListener('DOMContentLoaded', () => {
   const componentes = document.getElementsByClassName('componente');
+  const popup = document.getElementById('popup');
+  const fecharPopup = document.getElementById('popup-fechar');
+  const copiarPopup = document.getElementById('popup-copiar');
+  const inputHTML = document.getElementById('codigo-html');
 
   Array.from(componentes).forEach((componente) => {
     componente.addEventListener('click', () => {
-      console.log(componente);
+      inputHTML.innerText = `${componente.innerHTML}`
+      popup.classList.remove('oculto');
     });
+  });
+
+  fecharPopup.addEventListener('click', () => {
+    inputHTML.innerText = '';
+    popup.classList.add('oculto');
+  });
+
+  copiarPopup.addEventListener('click', () => {
+    const textoOriginal = copiarPopup.innerText;
+    navigator.clipboard.writeText(inputHTML.innerText);
+    copiarPopup.innerText = 'Copiado!';
+    setTimeout(() => {
+      copiarPopup.innerText = textoOriginal;
+    }, 2000);
   });
 
   const listaIcones = [

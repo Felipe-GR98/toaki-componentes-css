@@ -13,7 +13,7 @@
   --cor-texto-primaria: #2A2A2A;
   --cor-fundo-secundaria: #F9F9F9;
   --cor-fundo-primaria: #FFF6E9;
-  --cor-preta-para-hover: rgba(0, 0, 0, 0.125);
+  --cor-preto-hover: linear-gradient(rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
   --sombra-leve: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
   --sombra-media: 0px 2px 8px -2px rgba(0, 0, 0, 0.06), 0px 4px 12px -2px rgba(0, 0, 0, 0.1);
   --sombra-grande: 0px 4px 12px -2px rgba(0, 0, 0, 0.1);
@@ -21,6 +21,15 @@
   --raio-medio: 8px;
   --raio-grande: 12px;
   --raio-extra-grande: 16px;
+  --espacamento-zero: 0px;
+  --espacamento-pp: 4px;
+  --espacamento-p: 8px;
+  --espacamento-regular: 12px;
+  --espacamento-m: 16px;
+  --espacamento-g: 24px;
+  --espacamento-gg: 32px;
+  --espacamento-xg: 48px;
+  --espacamento-ggg: 64px;
 }
 
 * {
@@ -61,13 +70,21 @@ button {
   gap: 1rem;
 }
 
+.componente:hover {
+  cursor: pointer;
+}
+
 .titulo-secao {
   grid-column: span 5;
   text-align: center;
 }
 
-.ocupa-linha {
+.ocupa-5-linhas {
   grid-column: span 5;
+}
+
+.oculto {
+  visibility: hidden;
 }
 
 #container-titulo {
@@ -82,4 +99,61 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+#popup-conteudo {
+  background-color: var(--cor-fundo-secundaria);
+  padding: var(--espacamento-g);
+  box-shadow: var(--sombra-media);
+  border-radius: var(--raio-extra-grande);
+  margin: 100px auto auto auto;
+  width: 90%;
+  max-width: 500px;
+  z-index: 1001;
+}
+
+#popup-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#popup-fechar {
+  display: block;
+  padding: var(--espacamento-p);
+  border-radius: var(--raio-leve);
+  background-color: var(--cor-feedback-negativo);
+  color: var(--cor-fundo-secundaria);
+  cursor: default;
+}
+
+#popup-fechar:hover {
+  background: var(--cor-preto-hover), var(--cor-feedback-negativo);
+}
+
+#popup-copiar{
+  display: block;
+  padding: var(--espacamento-p);
+  border-radius: var(--raio-leve);
+  background-color: var(--cor-texto-secundaria);
+  color: var(--cor-fundo-secundaria);
+  cursor: default;
+}
+
+#popup-copiar-container {
+  display: flex;
+  justify-content: center;
+}
+
+#popup-copiar:hover {
+  background: var(--cor-preto-hover), var(--cor-texto-secundaria);
 }
