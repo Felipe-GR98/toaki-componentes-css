@@ -38,6 +38,11 @@
   height: 60px;
 }
 
+.navbar-desktop-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
 .navbar-desktop-secao-vazia {
   flex-grow: 1;
 }

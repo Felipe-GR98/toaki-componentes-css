@@ -1,69 +1,72 @@
 .botao-grande{
   margin: 5px;
-  background-color: var(--secondary-color);
-  border-radius: 8px;
+  background-color: var(--cor-marca-secundaria);
+  border-radius: var(--raio-medio);
   color: #FFFFFF;
   box-shadow: none;
   width: 266px;
   height: 37px;
   border: none;
-  font-size: 16px;
+  font-size: var(--espacamento-m);
   font-weight: 600;
 }
 
-
 .botao-ciano-pequeno{
   margin: 5px;
-  background-color: var(--secondary-color);
-  border-radius: 8px;
+  background-color: var(--cor-marca-secundaria);
+  border-radius: var(--raio-medio);
   color: #FFFFFF;
   box-shadow: none;
   width: 109px;
   height: 35px;
   border: none;
-  font-size: 16px;
+  font-size: var(--espacamento-m);
   font-weight: 600;
 }
 
 .botao-vermelho-pequeno{
   margin: 5px;
   background-color: var(--cor-feedback-negativo);
-  border-radius: 8px;
+  border-radius: var(--raio-medio);
   color: #FFFFFF;
   box-shadow: none;
   width: 109px;
   height: 35px;
   border: none;
-  font-size: 16px;
+  font-size: var(--espacamento-m);
   font-weight: 600;
 }
 
 .botao-ciano-medio{
   margin: 5px;
-  background-color: var(--secondary-color);
-  border-radius: 8px;
+  background-color: var(--cor-marca-secundaria);
+  border-radius: var(--raio-medio);
   color: #FFFFFF;
   box-shadow: none;
   width: 109px;
   height: 35px;
   border: none;
-  font-size: 16px;
+  font-size: var(--espacamento-m);
   font-weight: 600;
 }
 
-
-
-
 .botao-ciano-medio{
   margin: 5px;
-  background-color: var(--secondary-color);
-  border-radius: 8px;
+  background-color: var(--cor-marca-secundaria);
+  border-radius: var(--raio-medio);
   color: #FFFFFF;
   box-shadow: none;
   width: 204px;
   height: 44px;
   border: none;
-  font-size: 16px;
+  font-size: var(--espacamento-m);
   font-weight: 600;
 }
 
+.botao-geral-ciano:hover{
+    background: var(--cor-preto-hover), var(--cor-marca-secundaria);
+}
+
+.botao-geral-vermelho:hover{
+    background: var(--cor-preto-hover), var(--cor-feedback-negativo);
+}

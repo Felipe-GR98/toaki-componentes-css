@@ -131,6 +131,10 @@
     align-items: center;
 }
 
+.card-perfil svg path{
+    stroke: var(--cor-texto-secundaria);
+}
+
 .card-status {
     display: flex;
     align-items: center;
