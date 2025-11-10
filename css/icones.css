@@ -28,6 +28,11 @@
 }
 
 .icone-tamanho-g {
+  width: 32px;
+  height: 32px;
+}
+
+.icone-tamanho-gg {
   width: 48px;
   height: 48px;
 }

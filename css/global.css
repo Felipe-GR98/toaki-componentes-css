@@ -79,7 +79,7 @@ button {
   text-align: center;
 }
 
-.ocupa-linha {
+.ocupa-5-linhas {
   grid-column: span 5;
 }
 

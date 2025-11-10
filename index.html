@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/imagem.css">
   <link rel="stylesheet" href="./css/icones.css">
   <link rel="stylesheet" href="./css/inputs.css">
+  <link rel="stylesheet" href="./css/navbar.css">
 </head>
 <body>
 
@@ -191,13 +192,13 @@
       <h2>Ícones</h2>
     </div>
 
-    <div class="moldura ocupa-linha" id="customizacao-icone">
+    <div class="moldura ocupa-5-linhas" id="customizacao-icone">
       <div>
         <h3></h3>
       </div>
 
       <div class="componente">
-        <svg class="icone-tamanho-m icone-estrela icone-borda-preta" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
@@ -212,6 +213,7 @@
             <option value="icone-tamanho-p">Pequeno</option>
             <option value="icone-tamanho-m">Normal</option>
             <option value="icone-tamanho-g">Grande</option>
+            <option value="icone-tamanho-gg">Extra grande</option>
           </select>
         </div>
       </div>
@@ -256,6 +258,98 @@
     </div>
   </div>
 
+  <div class="secao-de-componentes">
+    <div class="titulo-secao">
+      <h2>Barras de Navegação</h2>
+    </div>
+    
+    <template>
+      <div class="moldura">
+        <div>
+          <h3>Nome do componente</h3>
+        </div>
+        <div class="componente">
+          <span>Remova esse span e preencha com os elementos do componente</span>
+        </div>
+      </div>
+    </template>
+
+    <div class="moldura">
+      <div>
+        <h3>Barra de Navegação Mobile</h3>
+      </div>
+      <div class="componente">
+        <div class="controle-o-tamanho-da-navbar-por-essa-div">
+          <nav class="navbar-mobile">
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="moldura">
+      <div>
+        <h3>Barra de Navegação Mobile - 3 Ícones</h3>
+      </div>
+      <div class="componente">
+        <div class="controle-o-tamanho-da-navbar-por-essa-div">
+          <nav class="navbar-mobile navbar-3-icones">
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <svg class="icone-tamanho-m icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="moldura ocupa-5-linhas">
+      <div>
+        <h3>Barra de Navegação Desktop</h3>
+      </div>
+      <div class="componente">
+        <div class="controle-o-tamanho-da-navbar-desktop-por-essa-div">
+          <nav class="navbar-desktop">
+            <div class="navbar-desktop-imagem">
+              <img src="" alt="">
+            </div>
+
+            <div class="navbar-desktop-secao-vazia">
+            </div>
+
+            <div class="navbar-desktop-icones">
+              <svg class="icone-tamanho-g icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="icone-tamanho-g icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="icone-tamanho-g icone-retorno icone-borda-preta" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+    
   <div class="secao-de-componentes" id="switch-barra-progresso">
     <div class="titulo-secao">
       <h2>Switch e Barra de Progresso</h2>
