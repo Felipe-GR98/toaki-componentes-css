@@ -58,6 +58,69 @@
   fill: var(--cor-terciaria-3);
 }
 
+.switch-externo {
+  width: 55px;
+  height: 29px;
+  border-radius: 100px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.switch-bola {
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out, 
+              width 0.3s ease-in-out,
+              height 0.3s ease-in-out,
+              background-color 0.3s ease-in-out,
+}
+
+.switch-externo-inativo {
+  justify-content: flex-start; /* Define a posição base */
+  background-color: rgba(231, 224, 236, 0.1);
+  border: 2px solid rgba(29, 27, 32, 0.1);
+}
+
+.switch-externo-inativo .switch-bola {
+  width: 16px;
+  height: 16px;
+  background-color: #1d1b20;
+  opacity: 0.38;
+  transform: translateX(0px);
+}
+
+.switch-externo-ativo {
+  background-color: var(--cor-feedback-sucesso);
+  border-color: transparent;
+}
+
+.switch-externo-ativo .switch-bola {
+  width: 24px;
+  height: 24px;
+  background-color: var(--cor-fundo-secundaria);
+  opacity: 1;
+  transform: translateX(23px);
+}
+
+.barra-progresso {
+  width: 180px;
+  height: 14px;
+  background-color: #d9d9d9;
+  border-radius: var( --raio-medio);
+  z-index: 10;
+}
+
+.barra-progresso div {
+  width: 86%;
+  height: 100%;
+  background-color: var(--cor-marca-secundaria);
+  border-radius: var( --raio-medio);
+  z-index: 11;
+}
+
 .icone-retorno path {
   d: path("M15 5L8 12L15 19");
 }
