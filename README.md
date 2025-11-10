@@ -22,7 +22,7 @@ Para um bom funcionamento do repositório, normalmente é necessário:
 
 ### Botões e Inputs
 
-Para customizar botões e inputs, já existem algumas classes que modificam o tamanho (`.btn-lg`, `.input-sm`, etc.) e outras que fazem a troca da cor de fundo.
+Para customizar botões e inputs, já existem algumas classes que modificam o tamanho e outras que fazem a troca da cor de fundo.
 
 Caso você precise de alguma variação de cor ou tamanho:
 
