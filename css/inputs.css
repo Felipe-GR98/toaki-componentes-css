@@ -1,7 +1,9 @@
 :root {
     --entrada-radio: 0.75rem;
     --entrada-altura: 16.62rem;
+    --entrada-altura-desktop: 26rem;
     --entrada-largura: 2.06rem;
+    --entrada-largura-desktop: 2.5625rem;
     --entrada-espacamento: 1rem;
     --entrada-background-cor: #F9F9F9;
     --entrada-borda: 1px solid #d9d9d9;
@@ -9,6 +11,7 @@
     --rotulo-altura: 2.75rem;
     --rotulo-largura: 1rem;
     --rotulo-tamanho-fonte: 0.68rem;
+    --rotulo-tamanho-fonte-desktop: 1rem;
     --rotulo-espaco-linha: 0.81rem;
     --rotulo-margem: 0.62rem;
 }
@@ -54,6 +57,22 @@
   right: 0.62rem;
   transform: translateY(-50%);
   cursor: pointer; 
+}
+
+.rotulo-desktop {
+    font-size: var(--rotulo-tamanho-fonte-desktop);
+    line-height: var(--rotulo-line-height);
+    padding-left: var(--rotulo-margem);
+    font-weight: 600;
+}
+
+.entrada-desktop {
+    width: var(--entrada-altura-desktop);
+    height: var(--entrada-largura-desktop);
+    padding: var(--entrada-espacamento);
+    background: var(--entrada-background-cor);
+    border: var(--entrada-borda);
+    border-radius: var(--entrada-radio);
 }
 
 
