@@ -21,6 +21,7 @@
   --raio-medio: 8px;
   --raio-grande: 12px;
   --raio-extra-grande: 16px;
+  --raio-login: 30px;
   --espacamento-zero: 0px;
   --espacamento-pp: 4px;
   --espacamento-p: 8px;
@@ -30,6 +31,10 @@
   --espacamento-gg: 32px;
   --espacamento-xg: 48px;
   --espacamento-ggg: 64px;
+  --font-Light: 300;
+  --font-Regular: 400;
+  --font-Medium: 500;
+  --font-SemiBold: 600;  
 }
 
 * {
